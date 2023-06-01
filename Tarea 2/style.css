@@ -1,0 +1,133 @@
+.contenedor {
+    display: flex;
+    /* Utiliza un diseño flexible */
+    justify-content: space-between;
+    /* Coloca el contenido en los extremos */
+}
+
+.imagen-derecha {
+    vertical-align: top;
+    /* Alinea las imágenes en la parte superior */
+}
+
+.item p {
+    display: inline-block;
+
+}
+
+.dato {
+    text-align: right;
+    width: 15%;
+
+}
+
+.barra-navegacion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-navegacion li {
+    display: inline-block;
+
+}
+
+.barra-navegacion li a {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #110a0a;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.barra-navegacion li a:hover {
+    box-shadow: 8px 11px 7px rgba(0, 0, 0, 0.7);
+}
+
+.barra-navegacion li {
+    background-color: rgba(97, 199, 241, 0.5);
+    border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.Estilo-Pie-Pagina {
+    font-weight: bolder;
+}
+
+footer {
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(97, 199, 241, 0.5);
+    margin-top: 15px;
+    border-radius: 15px;
+
+}
+
+tr :hover {
+    background-color: rgba(97, 199, 241, 0.3);
+}
+
+.Transparencia {
+    font-weight: bolder;
+    opacity: 0.8;
+}
+
+h1.titulo:hover {
+    color: rgba(97, 199, 241);
+}
+
+h1.titulo {
+    text-align: center;
+}
+
+.Pie-Pagina {
+    display: inline;
+    margin-right: 190px;
+}
+
+.CentrarTabla {
+    margin: 0 auto;
+
+}
+
+.CentrarTexto {
+    text-align: center;
+}
+
+.box {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148812993.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    flex: 1;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+aside {
+    display: inline;
+    margin-right: 15px;
+}
+
+.fielset {
+    display: flex;
+}
+
+.fielsetcon3d {
+    flex: 1;
+    border: 1px solid #e0cbcb;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 5px;
+}

@@ -1,0 +1,95 @@
+.contenedor {
+    display: flex;
+    /* Utiliza un diseño flexible */
+    justify-content: space-between;
+    /* Coloca el contenido en los extremos */
+}
+
+.imagen-derecha {
+    vertical-align: top;
+    /* Alinea las imágenes en la parte superior */
+}
+
+.item p {
+    display: inline-block;
+
+}
+
+.dato {
+    text-align: right;
+    width: 15%;
+
+}
+
+.barra-navegacion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.barra-navegacion li {
+    display: inline-block;
+}
+
+.barra-navegacion li a {
+    display: block;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #110a0a;
+}
+
+.barra-navegacion li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.Estilo-Pie-Pagina {
+    font-weight: bolder;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148812993.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+
+    box-sizing: border-box;
+    width: 890px;
+    padding: 20px;
+    background-color: rgba(97, 199, 241, 0.5);
+    margin-top: 15px;
+    
+}
+
+tr :hover {
+    background-color: rgba(97, 199, 241, 0.3);
+}
+
+.Transparencia {
+    font-weight: bolder;
+    opacity: 0.5;
+}
+
+h1.titulo:hover  {
+    color:rgba(97, 199, 241);
+}
+
+h1.titulo  {
+    text-align: center;
+}
+
+.Pie-Pagina{
+    display: inline;
+    margin-right: 190px;
+}
+
+.CentrarTabla {
+    margin: 0 auto;
+
+}
+.CentrarTexto{
+    text-align: center;
+}

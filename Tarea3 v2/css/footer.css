@@ -1,0 +1,22 @@
+#foo{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    background-color: var(--primary-color);
+    margin: 15px 15px;
+    justify-content: center;
+
+}
+
+footer p {
+    display: inline;
+    margin-right: 190px;
+}

@@ -1,0 +1,40 @@
+#GUAYABO h1{
+    font-size: 27px;
+}
+.tamaño{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.informacion{
+    display: inline-block;
+    width: 900px;
+    margin: 20px;
+    margin-right: 100px;
+    box-sizing: border-box;
+}
+
+.subtitulos {
+    text-align: center;
+}
+.tamañoLetra{
+    font-size: 20px;
+}
+
+.tamañoServicios{
+    width: calc(100% - 900px);
+    display: block;
+    margin: 20px;
+    
+}
+
+.servicios{
+    display: block;
+    text-align: center;
+}
+
+.povh4{
+    text-align: center;
+}

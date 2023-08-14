@@ -1,0 +1,46 @@
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: var(--primary-);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: var(--primary-color-dark);
+
+}
+
+img {
+    border: none;
+}
+fieldset{
+    border: 1px solid #e0cbcb;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h3{
+    text-align: center;
+}

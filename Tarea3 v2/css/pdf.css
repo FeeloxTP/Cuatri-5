@@ -1,0 +1,21 @@
+.h3{
+    text-align: left;
+    margin-top: 80px;
+}
+
+.descarga{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.posicionpdf{
+    /*una mejor manera de posicionar*/
+    width: 100%;
+    display: grid;
+    margin: 40px ;
+    margin-left: 0;
+    place-items: center;
+    box-sizing: border-box;
+    place-items: center;
+}
+

@@ -1,0 +1,194 @@
+@import "./common.css";
+@import "./header.css";
+@import "./colors.css";
+@import "./menu.css";
+@import "./information.css";
+@import "./table.css";
+@import "./footer.css";
+@import "./grid.css";
+@import "./fielset.css";
+@import "./Parques.css";
+@import "./Galeria.css";
+@import "./pdf.css";
+
+
+@media screen and (max-width: 767px) {
+    header {
+        display: inline-block;
+        width: 100%;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #men {
+        width: 100%;
+        display: flex;
+        padding: 0;
+
+    }
+
+    #menu li {
+        width: 100%;
+        display: block;
+
+    }
+
+    #menu ul li {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        border-bottom: solid 1px w;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #menu ul li a {
+        border-right: none;
+    }
+
+    #menu>ul>li>ul>a {
+        display: flex;
+    }
+
+    #menu>ul>li>ul {
+        width: calc(100% - 100px);
+        background-color: var(--primary-color-dark);
+        border-radius: 15px;
+    }
+
+    #menu>ul>li:hover>ul {
+        display: block;
+        margin-top: 20px;
+    }
+
+#menu>ul>li>ul>li>a {
+    width: 100%;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#sec {
+    display: inline-block;
+    width: 100%;
+}
+
+#sec #info {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#sec #tabla {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+
+}
+
+#sec #tabla fieldset {
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+
+#foo {
+    display: block;
+    width: 100%;
+
+}
+
+#foo footer {
+    display: block;
+    padding: 0;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 0px;
+}
+
+#foo footer p {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+footer a {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+
+}
+
+.tamaño {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tamañoServicios {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+.informacion {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.posicionGaleria {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.posicionAudio {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.estilo {
+    display: block;
+    width: 100%;
+    margin-right: 4px;
+    height: auto;
+    /* Cambiado a auto para ajustarse al contenido */
+    margin: 0 auto;
+    /* Centrar horizontalmente en la página */
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+
+.estiloimg {
+    display: block;
+    width: 100%;
+    flex-grow: 1;
+    transition: .5s ease;
+}
+
+.estiloimg:hover {
+    cursor: crosshair;
+    width: 100%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+}

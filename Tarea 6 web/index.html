@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/scrip.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Caso para if/else</h1>
+        <h2>Digite su Edad</h2>
+        <input type="text" id="Edad">
+        <br>
+        <br>
+        <button id="botonEdad" onclick="verificarEdad()">Verificar</button>
+        <p id="edadtex"></p>
+    </section>
+
+    <section>
+        <br>
+        <br>
+        <h1>Ejemplo Switch en JavaScript</h1>
+        <button onclick="ejecutarAccion('opcion1')">Opción 1</button>
+        <button onclick="ejecutarAccion('opcion2')">Opción 2</button>
+        <button onclick="ejecutarAccion('opcion3')">Opción 3</button>
+
+        <div id="roundedNumber"></div>
+    </section>
+
+    <section>
+        <br>
+        <br>
+        <h1>Ejemplo Try/Catch/Throw en JavaScript</h1>
+
+        <button onclick="dividir(10, 2)">Dividir 10 entre 2</button>
+        <button onclick="dividir(5, 0)">Dividir 5 entre 0</button>
+        <p id="result"></p>
+    </section>
+
+    <section>
+        <h1>Ejemplo Objetos Error en JavaScript</h1>
+
+        <label for="edad">Ingrese su edad:</label>
+        <br>
+        <input type="number" id="edadInput">
+        <br>
+        <button onclick="obtenerEdad()">Obtener Edad</button>
+
+        <h4>Su edad es</h4>
+        <p id="ed"></p>
+    </section>
+
+    <section>
+        <br>
+        <h1>Caso con ciclos</h1>
+        <button onclick="ejecutarFor()">Ejecutar bucle 'for'</button>
+        <p id="ResultadoFor"></p>
+        <br>
+        <br>
+        <br>
+        <button onclick="ejecutarWhile()">Ejecutar bucle 'while'</button>
+        <p id="ResultadoWhile"></p>
+        <br>
+        <br>
+        <br>
+        <button onclick="ejecutarDoWhile()">Ejecutar bucle 'do-while'</button>
+        <p id="ResultadoDOWHILE"></p>
+
+    </section>
+
+    <section>
+        <h1>Hacer una funcion y como llamarla</h1>
+        <p id="parrafo">Hola</p>
+        <button id="boton" onclick="cambiarTexto()">Cambiar Texto</button>
+    </section>
+
+    <section>
+        <h1> Asignación y Comparación</h1>
+        <p>asignamos a una variable el valor 5 y otra con el mismo valor pero en formato texto ""</p>
+        <p>este caso sera false ya que habra un 5 numerico y un 5 en tipo texto</p>
+        <button id="boton" onclick="asignacionComparacion()">Verificar</button>
+        <p id="Comparación"></p>
+
+    </section>
+
+    <section>
+        <h1> Operadores aritméticos</h1>
+        <p>en esta ocacion tenemos una suma de 4+4 para este caso decidi digitar los numeros manualmente desde el codigo
+            pero se </p>
+        <p>puede agregar espacios para que el usuario digite los numeros que el quiera sumar </p>
+
+        <button id="boton" onclick="sumar()">Sumar</button>
+        <p id="suma"></p>
+    </section>
+
+    <section>
+        <h1>Operadores Logicos</h1>
+        <p>Los operadores lógicos en JavaScript se utilizan para combinar o evaluar expresiones </p>
+        <p>lógicas y devolver un valor booleano (true o false). Los operadores lógicos disponibles son:</p>
+        <p>Operador AND (&&): Devuelve true si ambos operandos son true, de lo contrario devuelve false.</p>
+        <p>vamos a comparar los numeros 5 < 7 y 3 < 7</p>
+                <p>en este caso se mostrara un false cuando se oprima el boton ya que las dos comparaciones son falsas y
+                    aunque una fuera true iguamente se mostraria false ya que por el operador and </p>
+                <br>
+                <button onclick="operadoresLogicos()">verificar</button>
+                <p id="operadoresLogicos"></p>
+    </section>
+
+    <section>
+        <h1>Ejemplo de Objeto Number en JavaScript</h1>
+        <button id="btnMostrar" onclick="utilizarNumber()">Haz clic para mostrar los resultados</button>
+        <br><br>
+
+        <p>Valor: <span id="value"></span></p>
+        <p>Representación en cadena: <span id="str"></span></p>
+        <p>Valor con dos decimales: <span id="fixed"></span></p>
+        <p>Es entero: <span id="isInteger"></span></p>
+        <p>Es NaN: <span id="isNaNValue"></span></p>
+        <p>Suma: <span id="suma"></span></p>
+        <p>Multiplicación: <span id="multiplicacion"></span></p>
+
+    </section>
+
+    <section>
+        <h1> Objeto Math</h1>
+        <p>En JavaScript, el objeto Math es una biblioteca incorporada que proporciona métodos y <br>propiedades para
+            realizar operaciones matemáticas comunes. <br>No se puede crear una instancia del objeto Math porque sus
+            métodos
+            y propiedades son estáticos, <br>lo que significa que se accede a ellos directamente <br>a través del objeto
+            Math
+            sin necesidad de crear una instancia.</p>
+        <br>
+        <button onclick="calcularResultados()">Calcular Resultados</button>
+        <br>
+        <p id="randomNumber"></p>
+        <p id="absoluteValue"></p>
+        <p id="roundedNumber"></p>
+        <p id="cosineValue"></p>
+    </section>
+
+    <section>
+        <h1>Objeto Date en JavaScript</h1>
+        <button onclick="explicarDate()">Ver Fecha y Hora</button>
+        <h2>Fecha y hora actual:</h2>
+        <p>Fecha: <span id="fecha-actual"></span></p>
+        <p>Hora: <span id="hora-actual"></span></p>
+
+    </section>
+
+    <section>
+        <h1>Cadenas literales</h1>
+        <p>las cadenas literales sirven para insertar variables dentro de la cadena </p>
+
+        <button onclick="explicarCadenasLiterales()">Mensaje:</button>
+        <p><span id="mensaje"></span></p>
+
+    </section>
+
+    <section>
+        <h1>Objeto String</h1>
+        <p>los Objeto String como en otros lenguajes tienen metodos predefinidos que nos ayudaran</p>
+        <button onclick="explicarString()">Mostrar</button>
+
+        <h2>Texto original:</h2>
+        <p><span id="texto-original"></span></p>
+
+        <h2>Longitud del texto:</h2>
+        <p><span id="longitud"></span></p>
+
+        <h2>Texto en mayúsculas:</h2>
+        <p><span id="texto-mayusculas"></span></p>
+    </section>
+
+    <section>
+        <br>
+        <h1>Arreglos en JavaScript</h1>
+        <button onclick="explicarArreglos()">Mostrar</button>
+
+        <h2>Arreglo de frutas:</h2>
+        <p><span id="arreglo-frutas"></span></p>
+
+        <h2>Longitud del arreglo:</h2>
+        <p><span id="longitud-arreglo"></span></p>
+
+        <h2>Primera fruta:</h2>
+        <p><span id="primera-fruta"></span></p>
+
+        <h2>Última fruta:</h2>
+        <p><span id="ultima-fruta"></span></p>
+    </section>
+
+    <section>
+        <br>
+        <h1>Arreglos tipados</h1>
+        <p>Los arreglos tipados, también conocidos como Typed Arrays, <br>son una característica introducida en
+            JavaScript
+            para manejar datos binarios de manera eficiente <br> y con un control preciso sobre los tipos de datos
+            almacenados.</p>
+
+        <button onclick="explicarArreglosTipados()">Mostrar</button>
+
+        <h2>Arreglo tipado:</h2>
+        <p><span id="arreglo-tipado"></span></p>
+
+        <h2>Primer elemento:</h2>
+        <p><span id="primer-elemento"></span></p>
+
+        <h2>Último elemento:</h2>
+        <p><span id="ultimo-elemento"></span></p>
+    </section>
+
+    <section>
+        <br>
+        <h1>Encontrar elementos HTML por ID</h1>
+
+        <p id="mi-elemento">Este es el elemento que vamos a encontrar.</p>
+
+        <button onclick="encontrarElementoPorId()">Buscar elemento</button>
+    </section>
+
+    <section>
+        <br>
+        <h1>Encontrar elementos HTML por nombre de etiqueta</h1>
+
+
+        <p>Este es el primer párrafo.</p>
+        <p>Este es el segundo párrafo.</p>
+        <p>Este es el tercer párrafo.</p>
+
+        <button onclick="encontrarElementosPorEtiqueta()">Buscar elementos</button>
+    </section>
+
+    <section>
+        <br>
+        <h1>Encontrar elementos HTML por nombre de clase de etiqueta</h1>
+        <p class="rojo">Utilizaremos este texto de color rojo por la clase css y se parasara a otro color</p>
+
+        <button onclick="encontrarElementosPorClase()">Cambiar estilo</button>
+    </section>
+
+    <section class="selectores">
+        <br>
+        <h1>Encontrar elementos HTML mediante selectores CSS</h1>
+        <p>esto cambiara todos los elementos que esten dentro del selector, en este caso el selector es un section pero
+            podria ser un div etc</p>
+        <button onclick="encontrarElementosPorSelector()">Cambiar estilo</button>
+
+        <p>Este es el primer párrafo.</p>
+        <p>Este es el segundo párrafo.</p>
+    </section>
+    <p>Este es el tercer párrafo.</p>
+
+    <section>
+        <h1>Encontrar elementos HTML por colecciones de objetos</h1>
+
+        <button onclick="encontrarElementosPorColeccion()">Cambiar</button>
+
+        <ul class="lista">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+    </section>
+</body>
+
+</html>

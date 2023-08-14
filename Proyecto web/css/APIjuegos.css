@@ -1,0 +1,70 @@
+#title-container,
+#year-container,
+#genre-container {
+    font-family: Teko, sans-serif;
+    font-size: 1.75rem;
+}
+
+#title,
+#year,
+#genre {
+    font-style: italic;
+}
+
+#info-box {
+    margin-top: 50px;
+}
+
+#apiJuegos {
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+
+
+}
+
+#caja-informacion #subtitulo {
+    text-shadow: 2px 2px 4px #070707;
+    color: aliceblue;
+}
+
+#apiJuegos h1 {
+    font-family: Teko, sans-serif;
+    font-size: 2.75rem;
+    font-weight: 500;
+    color: var(--primary-color);
+
+    text-shadow: 2px 2px 4px var(--primary-color);
+
+    margin: auto;
+    margin-bottom: 50px;
+    width: 300px;
+}
+
+#apiJuegos img {
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+#apiJuegos button {
+    margin-top: 50px;
+    color: white;
+    background-color: var(--primary-color);
+    font-family: Teko, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+
+#apiJuegos button:hover {
+    color: white;
+    background-color: var(--primary-color-dark);
+}
+
+.subtitulo {
+    font-weight: bold;
+}

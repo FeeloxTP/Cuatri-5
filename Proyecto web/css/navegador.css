@@ -1,0 +1,22 @@
+#nav {
+    background-color: var(--primary-color) !important;
+    z-index: 2;
+}
+
+#espacioBuscador {
+    background: #171717dd;
+    color: #fff;
+}
+
+#espacioBuscador::placeholder{
+    color: #fff;
+}
+
+.btn{
+    background-color: #171717dd !important;
+    color: var(--primary-color) !important;
+}
+
+#logoMenu{
+    width: 7%;
+}

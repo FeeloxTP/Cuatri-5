@@ -1,0 +1,31 @@
+.estilo {
+    display: flex;
+    width: 900px;
+    height: 530px;
+    box-sizing: border-box;
+    margin-left: 20%;
+    padding-bottom: 5%;
+}
+
+.estiloimg {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.estiloimg:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+@media (min-width: 1700px) {
+    .estilo {
+        margin-left: 25%;
+    }
+
+}
+

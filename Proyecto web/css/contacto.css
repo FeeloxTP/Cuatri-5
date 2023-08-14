@@ -1,0 +1,19 @@
+.contacto {
+    width: 30%;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin: 0 auto;
+    border: solid 1px;
+}
+
+.contacto .contact_form input{
+    height: 40px;
+}
+
+#edad{
+    background-color: aliceblue;
+    color: black;
+}
+

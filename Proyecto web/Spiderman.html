@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameLabs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js"></script>
+
+    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+
+    <!--JQuary-->
+
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
+            <img id="logoMenu" src="img/sketch3.png" alt="" onclick="inicio()">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#"></a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="api.html">Juegos Antiguos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Carrito.html">Carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Acercade.html">Acerca De...</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input id="espacioBuscador" class="form-control me-2" type="search" placeholder="search here"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+
+        <section class="info">
+            <figure class="conImg">
+                <img src="imgCaratula/spiderman.avif" alt="fondo">
+            </figure>
+
+            <section class="compra">
+                <fieldset class="especificaciones">
+                    <!--inicio del section-->
+                    <section class="especi">
+                        <div class="flexi">
+                            <img src="img/icon/user.svg" alt="user">
+                            <p>1 jugador</p>
+                        </div>
+                        <div class="limit">
+                            <p>Versión para PS5</p>
+                        </div>
+
+                        <div class="flexi">
+                            <img src="img/icon/control.png" alt="control">
+                            <p>Compatible con la función de vibración y el efecto de gatillo (control inalámbrico
+                                DualSense)
+                            </p>
+                        </div>
+                    </section>
+                    <!--fin del section-->
+                    <section class="especi">
+                        <div class="flex2">
+                            <img id="t" src="img/icon/t.png" alt="t">
+                            <div>
+                                <p>Lenguaje moderado, Referencia a drogas, Sangre, Violencia</p>
+                                <p>Compras dentro del juego</p>
+                            </div>
+
+                        </div>
+
+                    </section>
+                </fieldset>
+
+                <fieldset class="espacioCompra">
+                    <h1>Marvel’s Spider-Man 2</h1>
+                    <p>Sony Interactive Entertainment</p>
+                    <p>20/10/2023 05:00 AM UTC</p>
+                    <div class="edicion">
+                        <p>PS5</p>
+                        <p id="pegado">EDICIÓN ESTÁNDAR</p>
+                    </div>
+                    <p id="precioSpiderman" class="precio">$69.99</p>
+                    <button data-nombre="comprarSpiderman" class="botonComprar" id="comprarSpiderman"
+                        data-precio="69.99" onclick="guardarJuego()">Añadir al carrito</button>
+                </fieldset>
+
+
+            </section>
+        </section>
+
+        <section class="containerIMGJuegos">
+
+            <div class="imgSpiderman1">
+
+            </div>
+            <div class="imgSpiderman2">
+
+            </div>
+            <div class="imgSpiderman3">
+
+            </div>
+        </section>
+
+        <section class="multimedia">
+            <p>Video del Juego</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rCIV0y8jNy4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+                <audio src="audio/spiderman.mp3" controls></audio>
+        </section>
+
+
+
+    </main>
+
+    <div class="divFooter">
+        <footer>
+
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+
+
+            </div>
+
+            <ul class="social_icon">
+                <li id="facebook"><a href="https://www.facebook.com/profile.php?id=100004955313938"
+                        target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+
+                <li id="instagram"><a href="https://www.instagram.com/felitrejos2003/" target="_blank"><ion-icon
+                            name="logo-instagram"></ion-icon></a></li>
+
+            </ul>
+
+            <p>&copy;Copyright 2023 | Game Lab</p>
+            <p>Felipe Trejos Perez</p>
+            <p>Kenneth Rodriguez Umaña</p>
+
+            <div>
+                <a href="#encabezado"><img id="#encabezado"
+                        src="https://cdn.discordapp.com/attachments/1114617800334512182/1127388992623624323/up-arrow_1.png"
+                        alt="foto"></a>
+            </div>
+
+
+
+
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> <!--da problemas-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <script src="javascript/JQuary.js"></script>
+</body>
+
+</html>

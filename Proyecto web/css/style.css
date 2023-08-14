@@ -1,0 +1,430 @@
+@import "./common.css";
+@import "./header.css";
+@import "./Colors.css";
+@import "./navegador.css";
+@import "ImagenesJuegos.css";
+@import "Juegos.css";
+@import "imgSpiderman.css";
+@import "footer.css";
+@import "imgHorizon.css";
+@import "imgDiablo.css";
+@import "imgGod\ of\ war.css";
+@import "imgMirage.css";
+@import "imgfantasy.css";
+@import "imgMortal.css";
+@import "imgSekiro.css";
+@import "carrito.css";
+@import "contacto.css";
+@import "carrusel.css";
+@import "APIjuegos.css";
+@import "Acercade.css";
+@import "Galeria.css";
+@import "APIgooglemaps.css";
+@import "autor.css";
+
+
+
+@media (max-width: 767px) {
+    #logoMenu{
+        width: 30%;
+    }
+
+    .navbar-toggler{
+        transform: translate(300px , -90px);
+    }
+
+    .carousel {
+        width: 100%;
+        height: auto;
+    }
+
+    .juegos {
+        transform: translate(0px, 0px);
+    }
+
+    .juegosLista article {
+        width: calc(50% - 20px);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        max-width: 500px;
+        /* Ajusta el ancho máximo según tus necesidades */
+        box-sizing: border-box;
+    }
+
+    article img:last-child {
+        width: 80%;
+        height: 90%;
+    }
+
+    .item2 {
+        display: none;
+    }
+
+    #contenedorboton {
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+
+    #contenedorboton #botonMostrar {
+        display: grid;
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        box-sizing: border-box;
+        font-weight: bold;
+    }
+
+    #contenedorboton #botonOcultar {
+        display: none;
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        box-sizing: border-box;
+        font-weight: bold;
+    }
+
+    .info {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .info figure {
+        width: 100%;
+        display: block;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .info figure img {
+        width: 100%;
+        height: 100%;
+        bottom: 0px !important;
+    }
+
+    .compra {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        transform: translate(0px, 0px);
+        margin: 0;
+        padding: 0;
+    }
+
+    .espacioCompra {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin-left: 10%;
+    }
+
+    .espacioCompra h1 {
+        width: 100%;
+        font-weight: none;
+    }
+
+    .especificaciones {
+        width: 100%;
+        margin: 0;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .especi {
+        width: 90%;
+        margin-left: 1%;
+    }
+
+    #t {
+        margin-top: 5;
+        width: 20%;
+    }
+
+    .containerIMGJuegos {
+        width: 100%;
+        display: block;
+        transform: translate(0px, 0px);
+        margin-top: 15%;
+    }
+
+    .imgSpiderman1 {
+        width: 100%;
+    }
+
+    .imgSpiderman2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .imgSpiderman3 {
+        width: 100%;
+    }
+
+    .imgDiablo1 {
+        width: 100%;
+    }
+
+    .imgDiablo2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .imgDiablo3 {
+        width: 100%;
+    }
+
+    .imgHorizon1 {
+        width: 100%;
+    }
+
+    .imgHorizon2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .imgHorizon3 {
+        width: 100%;
+    }
+
+    .imgGodOfWar1 {
+        width: 100%;
+    }
+
+    .imgGodOfWar2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .imgGodOfWar3 {
+        width: 100%;
+    }
+
+    .imgMirage1 {
+        width: 100%;
+    }
+
+    .imgMirage2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .imgMirage3 {
+        width: 100%;
+    }
+
+    .imgFantasy1 {
+        width: 100%;
+    }
+
+    .imgFantasy2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+
+    }
+
+    .imgFantasy3 {
+        width: 100%;
+    }
+
+
+
+    .imgMortal1 {
+        width: 100%;
+    }
+
+    .imgMortal2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+
+    }
+
+    .imgMortal3 {
+        width: 100%;
+
+    }
+
+    .imgSekiro1 {
+        width: 100%;
+    }
+
+    .imgSekiro2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .imgSekiro3 {
+        width: 100%;
+    }
+
+
+    footer {
+        width: 100%;
+        border: none;
+    }
+
+    .divFooter {
+        width: 100%;
+        border: none;
+    }
+
+    #carrito {
+        width: 100%;
+        display: block;
+    }
+
+    .contenidoCarrito {
+        width: 100%;
+        display: block;
+    }
+
+    .formulario {
+        width: 90%;
+        height: auto;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+        margin-left: 5%;
+    }
+
+    .juegos2 {
+        display: block;
+        margin-left: 3%;
+    }
+
+    .juegos2 .juegosLista article {
+        width: calc(50% - 20px);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        max-width: 500px;
+        /* Ajusta el ancho máximo según tus necesidades */
+        box-sizing: border-box;
+    }
+
+    .acercaDe {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border-radius: none;
+        padding: 0;
+    }
+
+    .infoAcercaDe {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 4%;
+        display: block;
+
+    }
+
+    .tabla {
+        width: 90%;
+        margin: 10% 5% 0;
+        height: auto;
+        
+    }
+
+    .infoAcercaDe h1 {
+        width: 100%;
+        margin-bottom: 5%;
+        box-sizing: border-box;
+
+    }
+
+    .infoAcercaDe p {
+        margin-bottom: 3%;
+    }
+
+    .prox {
+        width: 100%;
+        margin: 0;
+        margin-top: 10%;
+    }
+
+    .prox h1 {
+        text-align: left;
+    }
+
+    .estilo {
+        display: block;
+        width: 100%;
+        margin-right: 4px;
+        height: auto;
+        /* Cambiado a auto para ajustarse al contenido */
+        margin: 0 auto;
+        /* Centrar horizontalmente en la página */
+        margin-right: 40px;
+        box-sizing: border-box;
+    }
+
+    .estiloimg {
+        display: block;
+        width: 100%;
+        flex-grow: 1;
+        transition: .5s ease;
+    }
+
+    .estiloimg:hover {
+        cursor: crosshair;
+        width: 100%;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+
+    #contes {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .infoAcercaDe p img{
+        width: 30px;
+        margin-left: 3%;
+    }
+
+    .multimedia{
+        width: 100%;
+        display: block;
+        transform: translate(0px, -0px);
+        margin-top: 5%;
+    }
+
+    .multimedia p{
+        display: block;
+        color: aliceblue;
+    }
+
+    .multimedia audio{
+        margin-left: 8%;
+    }
+
+
+}

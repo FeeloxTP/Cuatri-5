@@ -1,0 +1,43 @@
+.containerIMGJuegos {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    transform: translate(0px, -250px);
+}
+    .imgDiablo1 {
+        width: 30%;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../imgDiablo/img4.jpg);
+    }
+
+    .imgDiablo2 {
+        width: 30%;
+        height: 250px;
+        margin: 0 2%;
+        padding: 0;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../imgDiablo/diablo-4-analisis-hipertextual.webp);
+        
+    }
+
+    .imgDiablo3 {
+        width: 30%;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../imgDiablo/diablo-iv-2983850.webp);
+    }

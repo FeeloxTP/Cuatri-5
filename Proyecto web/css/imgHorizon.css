@@ -1,0 +1,43 @@
+.containerIMGJuegos {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    transform: translate(0px, -250px);
+}
+    .imgHorizon1 {
+        width: 30%;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../imgHorizon/horizon-ii-forbidden-west-aloy-horizon-zero-dawn-horizon-forbidden-west-hd-wallpaper-preview.jpg);
+    }
+
+    .imgHorizon2 {
+        width: 30%;
+        height: 250px;
+        margin: 0 2%;
+        padding: 0;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../imgCaratula/Horizon.webp);
+        
+    }
+
+    .imgHorizon3 {
+        width: 30%;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../imgHorizon/img1.jpg);
+    }

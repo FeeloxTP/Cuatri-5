@@ -1,0 +1,97 @@
+.infoAcercaDe {
+    width: 100%;
+    color: white;
+    font-size: 23px;
+    margin-left: 1%;
+    box-sizing: border-box;
+
+}
+
+
+.infoAcercaDe h1 {
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 3px 1px #070707;
+}
+
+.infoAcercaDe p {
+    display: flex;
+    align-items: center;
+    text-shadow: 1px 2px 1px #070707;
+}
+
+#contes {
+    margin: 1% 0 0 5%;
+}
+
+.infoAcercaDe p img {
+    width: 3%;
+    margin-right: 2%;
+}
+
+#acercaDe {
+    width: 90%;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+
+.tabla {
+    width: 50%;
+    margin: 3% 0 5% 25%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: rgba(240, 248, 255, 0.941);
+    display: grid;
+    border-radius: 10px;
+}
+
+.tabla h1 {
+    text-align: center;
+    margin: 1%;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 1px #070707;
+}
+
+.tabla th {
+    background-color: #ddd;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 1px #070707;
+
+}
+
+/* Estilos para las celdas de datos */
+.tabla td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+
+    background-color: rgb(91, 35, 140);
+    color: #ddd;
+    text-shadow: 2px 3px 2px #070707;
+}
+
+/* Estilos para la primera columna */
+td:first-child {
+    font-weight: bold;
+}
+
+.prox {
+    margin-left: 20%;
+    margin-bottom: 1%;
+    text-shadow: 1px 1px 1px #070707;
+}
+
+@media (min-width: 1700px) {
+    .prox{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+}

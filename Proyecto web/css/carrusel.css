@@ -1,0 +1,23 @@
+.carousel {
+    width: 90%;
+    /* Cambia este valor al ancho deseado */
+    height: auto;
+    /* Cambia este valor al alto deseado */
+    margin: 0 auto;
+    background-color: var(--dark-color);
+    padding-top: 2%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Cambiar el tamaño de las imágenes dentro del carrusel */
+.carousel img {
+    width: 100%;
+    /* Las imágenes ocuparán todo el ancho del carrusel */
+    height: 100%;
+    /* Las imágenes ocuparán todo el alto del carrusel */
+}
+
+
+

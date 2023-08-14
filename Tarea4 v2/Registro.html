@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        function limpiarCampos() {
+            document.getElementById("correo").value = "";
+            document.getElementById("contrasena").value = "";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container2">
+            <header class="header">
+                <img id="imagenheader" src="images/logo.png" alt="">
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="Conciencia.html">Conciencia</a>
+                        </li>
+                        <li>
+                            <a href="Noticias.html">Noticias</a>
+                        </li>
+                        <li>
+                            <a href="Galeria.html">Galeria</a>
+                        </li>
+                        <li>
+                            <a href="#">Adoptar</a>
+                            <ul>
+                                <li>
+                                    <a href="ZaguatesPequeños.html">Zaguates Pequeños</a>
+                                </li>
+                                <li>
+                                    <a href="ZaguatesMedianos.html">Zaguates Medianos</a>
+                                </li>
+                                <li>
+                                    <a href="ZaguatesGrandes.html">Zaguates Grandes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="AcercaDe.html">Acerca De</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section class="containerRegistro">
+                    <h2 id="subtitulo">Formulario de Registro</h2>
+                    <form>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" required><br><br>
+
+                        <label for="contrasena">Contraseña:</label><br>
+                        <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+                        <input type="submit" value="Registrarse" onclick="limpiarCampos()">
+                    </form>
+                </section>
+            </main>
+            <div class="PiePagina">
+                <footer>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">home</a>
+                            </li>
+                            <li>
+                                <a href="conciencia.html">Conciencia</a>
+                            </li>
+                            <li>
+                                <a href="Noticias.html">Noticias</a>
+                            </li>
+                            <li>
+                                <a href="Galeria.html">Galeria</a>
+                            </li>
+
+                            <li>
+                                <a href="AcercaDe.html">Acerca De</a>
+                            </li>
+
+                        </ul>
+                        <p>Copyright &copy;Zaguate Worl;</p>
+                    </nav>
+
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

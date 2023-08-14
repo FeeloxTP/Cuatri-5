@@ -1,0 +1,179 @@
+@import "common.css";
+@import "menu.css";
+@import "Articulos.css";
+@import "aside.css";
+@import "infoPerros.css";
+@import "footer.css";
+@import "Conciencia.css";
+@import "Noticias.css";
+@import "AcercaDe.css";
+@import "registro.css";
+
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .sol {
+        width: 0;
+    }
+
+    .container2 {
+        width: 100%;
+        margin: 0px auto 0px auto;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+
+    main {
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+
+    .imagenheader {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .header {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .header nav {
+        width: 100%;
+        display: inline-block;
+    }
+
+
+
+    nav ul li {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        box-sizing: border-box;
+        margin-left: 0;
+        padding-bottom: 5px;
+        padding-top: 0;
+    }
+
+    nav>ul>li>ul>a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+
+    nav>ul>li>ul>li {
+
+        margin-top: 0;
+        padding: 0;
+    }
+
+    nav>ul>li>ul {
+        width: 50%;
+        box-sizing: border-box;
+        border-radius: 15px;
+        background-color: #53C7FD;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    nav>ul>li:hover>ul {
+        width: 30%;
+        display: block;
+        padding: 0;
+        box-sizing: border-box;
+        margin-left: 15%;
+    }
+
+    nav>ul>li>ul>li>a {
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+
+    nav>ul>li:hover>ul {
+        display: block;
+        z-index: 1;
+    }
+
+    .articulos {
+        width: 100%;
+        display: block;
+        padding-right: 3%;
+        box-sizing: border-box;
+
+    }
+
+    .informacion {
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .informacion h1 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+
+    .lista {
+        width: 100%;
+        display: block;
+        padding-left: 3%;
+        box-sizing: border-box;
+
+    }
+
+    .imagen {
+        width: 50%;
+        display: block;
+    }
+
+    #imagen img {
+        width: 100%;
+        display: block;
+
+    }
+
+    .containerAside {
+        width: 100%;
+        margin-top: 8%;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .containerAside aside {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10%;
+        box-sizing: border-box;
+
+    }
+
+
+    .conciencia {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        margin: 2%;
+        padding-right: 5%;
+    }
+
+
+
+}

@@ -1,0 +1,15 @@
+.header #logoAcercaDe{
+    width: 20%;
+}
+
+.acercaDe{
+    width: 100%;
+    display: block;
+}
+
+.acercaDe article{
+    width: 70%;
+    margin-left: 2%;
+    display: block;
+}
+

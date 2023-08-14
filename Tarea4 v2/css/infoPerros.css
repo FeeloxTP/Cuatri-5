@@ -1,0 +1,71 @@
+.headerPerros{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.headerPerros h1{
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.info {
+    width: 100%;
+    padding-left: 2%;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.infotabla {
+    width: 100%;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+
+.infotabla h4 {
+    width: 96%;
+    padding: 1%;
+    display: grid;
+    place-content: center;
+    background-color: #53C7FD;
+    box-sizing: border-box;
+    border: solid;
+    color: aliceblue;
+    margin: 0;
+}
+
+.tabla {
+    width: 96%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tabla tr:nth-child(odd) td{
+    background-color: aqua;
+
+}
+.columnas {
+    background-color: #E5017D;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 1%;
+    box-sizing: border-box;
+
+}
+
+.filas {
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.filas img {
+    width: 100px;
+
+}

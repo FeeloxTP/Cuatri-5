@@ -1,0 +1,13 @@
+.Noticias{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 25%;
+}
+
+.Noticias article{
+    width: 50%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+.containerAside{
+    width: calc(100% - 70%);
+    box-sizing: border-box;
+    margin-right: 1%;
+    margin-bottom: 10%;
+}
+
+.containerAside aside{
+    width: 90%;
+    text-align: center;
+    background-color: #F5FEFF;
+    border: #C9E5E9 1px solid;
+    margin-bottom: 19%;
+    box-sizing: border-box;
+    
+}
+
+.containerAside aside h4 {
+    color: #7DCE13;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerAside aside a {
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    color: blue;
+}
+
+.containerAside aside p {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+}

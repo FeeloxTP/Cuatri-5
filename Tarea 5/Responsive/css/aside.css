@@ -1,0 +1,50 @@
+.side {
+    width: 60%;
+    height: auto;
+    border-right: #BBACAF 5px solid;
+    margin-left: 1%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.side h2 {
+    width: 100%;
+    color: #385072;
+}
+
+.side h5 {
+    width: 100%;
+    color: #CB384B;
+}
+
+.side h3 {
+    width: 100%;
+    color: #385072;
+}
+
+
+
+.toursnews {
+    width: 98%;
+    background-color: #BBACAF;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.toursnews img {
+    margin: 1%;
+    border-radius: 50%;
+}
+
+.toursnews a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.toursnews:hover {
+    background-color: #DAD4E0;
+    color: #BBACAF;
+}

@@ -1,0 +1,151 @@
+@import "./common.css";
+@import "./header.css";
+@import "./menu.css";
+@import "./aside.css";
+@import "./article.css";
+@import "./footer.css";
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .header {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: #2962A7;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../img/wallpaper2.jpg);
+        padding: 0 0 55% 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .HeaderDesc {
+        width: 100%;
+        color: #D7434F;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .main {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: #BBACAF;
+        text-align: center;
+        display: block;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar a {
+        width: 100%;
+        color: white;
+        display: inline-block;
+        margin: 3% 0;
+        box-sizing: border-box;
+
+    }
+
+    .side {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+    }
+
+    .side h2 {
+        width: 100%;
+        color: #385072;
+    }
+
+    .side h5 {
+        width: 100%;
+        color: #CB384B;
+    }
+
+    .side h3 {
+        width: 100%;
+        color: #385072;
+    }
+
+    .fakeimg {
+        width: 100%;
+        background-color: #BBACAF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+
+    }
+
+    .fakeimg img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 5px;
+        background-color: #BBACAF;
+        box-sizing: border-box;
+    }
+
+    .toursnews {
+        width: 100%;
+        background-color: #BBACAF;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    .toursnews img {
+        margin: 1%;
+        border-radius: 50%;
+    }
+
+    .toursnews a {
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .toursnews a:hover {
+        background-color: #DAD4E0;
+        color: #BBACAF;
+    }
+
+    .article {
+        width: 100%;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .article h2 {
+        color: #385072;
+
+    }
+
+    .article h5 {
+        color: #CB384B;
+    }
+
+    .footer {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #9B847B;
+        background-image: url("../img/footer.jpg");
+        color: white;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+}

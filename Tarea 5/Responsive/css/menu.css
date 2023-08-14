@@ -1,0 +1,20 @@
+.navbar {
+    width: 100%;
+    background-color: #BBACAF;
+    text-align: center;
+    display: flex;
+    margin: 0;
+    padding: 1%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    margin-right: 5%;
+    color: aliceblue;
+}
+
+.navbar a:hover {
+    background-color: #DAD4E0;
+    color: #58699d ;
+}

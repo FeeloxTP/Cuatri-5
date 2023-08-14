@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.fakeimg {
+    width: 98%;
+    background-color: #BBACAF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.fakeimg img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 5px;
+    background-color: #BBACAF;
+    box-sizing: border-box;
+}

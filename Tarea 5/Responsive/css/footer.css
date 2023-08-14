@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9B847B;
+    background-image: url("../img/footer.jpg");
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

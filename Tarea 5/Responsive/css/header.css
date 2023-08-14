@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #2962A7;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/wallpaper2.jpg);
+    padding: 0 0 12% 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.HeaderDesc {
+    width: 100%;
+    color: #D7434F;
+    font-family: Arial, Helvetica, sans-serif;
+}

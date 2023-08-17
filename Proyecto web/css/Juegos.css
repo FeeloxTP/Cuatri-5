@@ -41,7 +41,7 @@ figure img {
     height: auto;
     box-sizing: border-box;
     text-align: center;
-
+    margin: 0;
     background-color: var(--dark-color-);
     transform: translate(-20px, -30px);
 }
@@ -60,6 +60,7 @@ figure img {
     margin-bottom: 2%;
     text-align: left;
     margin-left: 9%;
+    box-sizing: border-box;
 }
 
 .espacioCompra button {
@@ -92,6 +93,7 @@ figure img {
 
 #pegado {
     margin-left: 1%;
+    box-sizing: border-box;
 }
 
 .edicion p {

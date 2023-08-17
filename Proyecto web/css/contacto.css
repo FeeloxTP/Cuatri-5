@@ -1,19 +1,45 @@
 .contacto {
-    width: 30%;
-    height: 610px;
+    width: 32%;
+    height: auto;
     display: flex;
     justify-content: center;
     color: aliceblue;
     margin: 0 auto;
     border: solid 1px;
+    box-sizing: border-box;
 }
 
-.contacto .contact_form input{
+.contacto .contact_form input {
     height: 40px;
+    box-sizing: border-box;
+
 }
 
-#edad{
+#edad {
     background-color: aliceblue;
     color: black;
+    box-sizing: border-box;
+
 }
 
+.contacto ul li {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.contacto ul li button {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#tituloCont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}

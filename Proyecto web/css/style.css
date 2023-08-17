@@ -25,12 +25,21 @@
 
 
 @media (max-width: 767px) {
-    #logoMenu{
+    #logoMenu {
         width: 30%;
+        margin: 0;
     }
 
-    .navbar-toggler{
-        transform: translate(300px , -90px);
+    .navbar-toggler {
+        box-sizing: border-box;
+        height: auto;
+    }
+
+
+    #nav {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0;
     }
 
     .carousel {
@@ -39,13 +48,22 @@
     }
 
     .juegos {
+        width: 100%;
+        height: auto;
         transform: translate(0px, 0px);
+    }
+
+    #tienda article {
+        margin: 2%;
+    }
+
+    #tienda {
+        margin-bottom: 8%;
+
     }
 
     .juegosLista article {
         width: calc(50% - 20px);
-        margin-right: 20px;
-        margin-bottom: 20px;
         max-width: 500px;
         /* Ajusta el ancho máximo según tus necesidades */
         box-sizing: border-box;
@@ -90,6 +108,9 @@
         width: 100%;
         height: 100%;
         display: block;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
     }
 
     .info figure {
@@ -118,12 +139,42 @@
     }
 
     .espacioCompra {
-        width: 90%;
+        width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        margin-left: 10%;
+        transform: translate(0px, 0px);
+        display: grid;
+        place-items: left;
+    }
+
+    .espacioCompra p {
+        box-sizing: border-box;
+        margin: 0;
+        padding-left: 9%;
+    }
+
+    .edicion {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #pegado {
+        margin: 0;
+    }
+
+    .edicion p {
+        margin: 0;
+        padding: 1%;
+        margin-left: 9%;
+
+    }
+
+    .espacioCompra button {
+        margin-left: 9%;
+        box-sizing: border-box;
     }
 
     .espacioCompra h1 {
@@ -350,7 +401,7 @@
         width: 90%;
         margin: 10% 5% 0;
         height: auto;
-        
+
     }
 
     .infoAcercaDe h1 {
@@ -405,26 +456,58 @@
         margin-bottom: 5%;
     }
 
-    .infoAcercaDe p img{
+    .infoAcercaDe p img {
         width: 30px;
         margin-left: 3%;
     }
 
-    .multimedia{
+    .multimedia {
         width: 100%;
         display: block;
         transform: translate(0px, -0px);
         margin-top: 5%;
     }
 
-    .multimedia p{
+    .multimedia p {
         display: block;
         color: aliceblue;
     }
 
-    .multimedia audio{
+    .multimedia audio {
         margin-left: 8%;
     }
 
+    .multimedia iframe {
+        width: 100%;
+    }
+
+    .contacto {
+        width: 100%;
+        height: auto;
+        margin: 0;
+
+    }
+
+    .contacto ul li{
+        width: 100%;
+        height: auto;
+    }
+
+    #tituloCont {
+        width: 100%;
+        
+    }
+
+    .contacto ul{
+        width: 100%;
+        height: auto;
+    }
+
+    .contacto ul li{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
 
 }

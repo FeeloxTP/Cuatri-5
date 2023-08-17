@@ -18,5 +18,10 @@
 }
 
 #logoMenu{
-    width: 7%;
+    width: 5%;
+}
+
+#listaMenu{
+    width: 100;
+    height: auto;
 }

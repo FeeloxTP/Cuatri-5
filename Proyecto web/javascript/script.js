@@ -29,6 +29,7 @@ function confirmarDatos() {
     var nombre = document.getElementsByName("nombre")[0].value;
     var email = document.getElementsByName("email")[0].value;
     var fecha = document.getElementsByName("fnace")[0].value;
+    
     var expresionRegular = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     if (nombre === "") {
@@ -51,7 +52,7 @@ function confirmarDatos() {
 
 
     edadSuficiente();
-    acticarBotonCompra();
+    //acticarBotonCompra();
 }
 
 function edadSuficiente() {
@@ -60,6 +61,7 @@ function edadSuficiente() {
     var fechaNacimiento = document.getElementsByName("fnace")[0].value;
     var edad = document.getElementsByName("edad")[0];
     var nacimiento = new Date(fechaNacimiento);
+    var botonCompra = document.getElementById("realizarCompra");
 
 
     var years = hoy.getFullYear() - nacimiento.getFullYear();
@@ -68,23 +70,27 @@ function edadSuficiente() {
         years--;
     }
 
+    if(parseFloat(years) === -1){
+        years = 0;
+    }
+
     if (years >= 18) {
-        alert("Cliente con edad suficiente para Comprar");
         edad.value = years;
+        botonCompra.removeAttribute("disabled");
     } else {
         edad.value = years;
         alert("Cliente no tiene edad suficiente para Comprar");
     }
 }
 
-function acticarBotonCompra() {
+/*function acticarBotonCompra() {
     var botonDatos = document.getElementById("Confirmar");
     var botonCompra = document.getElementById("realizarCompra");
 
     botonDatos.addEventListener("click", function () {
         botonCompra.removeAttribute("disabled");
     });
-}
+}*/
 
 
 //============================================================
@@ -218,3 +224,60 @@ function verificarEdad() {
         edad.value = years;
     }
 }
+
+function validarContacto() {
+    var nombre = document.getElementsByName("Nombre")[0].value;
+    var email = document.getElementsByName("Correo")[0].value;
+    var asunto = document.getElementsByName("Asunto")[0].value;
+    var Comentario = document.getElementsByName("Comentario")[0].value;
+    var hombre = document.getElementById("Hombre");
+    var mujer = document.getElementById("Mujer");
+    var escolar = document.getElementsByName("Escolar")[0];
+    var colegio = document.getElementsByName("Colegio")[0];
+    var universidad = document.getElementsByName("Universidad")[0];
+
+    var simbolo1 = "@";
+    var simbolo2 = ".com";
+
+    if (nombre === "") {
+        alert("Tiene que ingresar un nombre para poder continuar");
+        return false;
+    }
+    if (!isNaN(nombre)) {
+        alert("No puede ingresar numeros en el espacio del nombre");
+        return false;
+    }
+    if (email === "") {
+        alert("Tiene que ingresar un correo");
+        return false;
+    }
+
+    if (!email.includes(simbolo1)) {
+        alert("El correo tiene que tener un @");
+        return false;
+    }
+    if (!email.includes(simbolo2)) {
+        alert("El correo tiene que tener un .com");
+        return false;
+    }
+
+    if (asunto === "") {
+        alert("Tiene que digitar el asunto del contacto");
+        return;
+    }
+    if (!hombre.checked && !mujer.checked) {
+        alert("Tiene que seleccionar un género");
+        return false;
+    }
+
+    if (!escolar.checked && !colegio.checked && !universidad.checked) {
+        alert("Tiene que seleccionar un grado académico");
+        return false;
+    }
+
+    if (Comentario === "") {
+        alert("Tiene que digitar el comentario del contacto");
+        return false;
+    }
+}
+

@@ -1,45 +1,91 @@
-.contacto {
-    width: 32%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
-    margin: 0 auto;
-    border: solid 1px;
-    box-sizing: border-box;
-}
-
-.contacto .contact_form input {
-    height: 40px;
-    box-sizing: border-box;
-
-}
-
-#edad {
-    background-color: aliceblue;
-    color: black;
-    box-sizing: border-box;
-
-}
-
-.contacto ul li {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    box-sizing: border-box;
-
-}
-
-.contacto ul li button {
-    margin: 0;
-    box-sizing: border-box;
-
-}
-
-#tituloCont {
+.contContacto {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 5%;
+}
+
+.formContacto {
+    background: linear-gradient(50deg,
+            rgba(122, 11, 192, 1)50%,
+            rgba(40, 42, 55, 0.7)),
+        url("../img/control.avif");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 1000px;
+    border-radius: 25px;
+}
+
+.formContacto h2 {
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 25px;
     box-sizing: border-box;
+}
+
+.formContacto form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.formContacto form label {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    
+}
+
+.formContacto form input,
+textarea {
+    padding: 3% 4%;
+    background-color: aliceblue !important;
+    border: none;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+.formContacto form input:focus {
+    outline: 1px solid #1E92E9;
+}
+
+.ContactoBTN {
+    margin-top: 8%;
+    background-color: #8e22bb !important;
+    border: #fff solid 1px !important;
+    box-sizing: border-box;
+    width: 30%;
+    align-self: center;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+.sexo{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    margin-bottom: 6%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.nivelAcademico{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    margin-bottom: 6%;
+    text-align: center;
 
 }

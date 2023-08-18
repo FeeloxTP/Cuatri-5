@@ -346,6 +346,11 @@
         border: none;
     }
 
+    footer .social_icon{
+        margin: 0;
+        padding: 0;
+    }
+
     #carrito {
         width: 100%;
         display: block;
@@ -392,16 +397,21 @@
         height: auto;
         margin: 0;
         padding: 0;
-        margin-bottom: 4%;
+        margin-top: 8%;
         display: block;
 
     }
 
     .tabla {
-        width: 90%;
-        margin: 10% 5% 0;
+        width: 100%;
         height: auto;
+        margin: 0;
 
+    }
+
+    .infoAcercaDe p {
+        margin: 0;
+        font-size: 95%;
     }
 
     .infoAcercaDe h1 {
@@ -481,33 +491,67 @@
         width: 100%;
     }
 
-    .contacto {
+    
+
+    #apiJuegos {
         width: 100%;
         height: auto;
+    }
+
+    #apiJuegos h1 {
+        margin-top: 3%;
+    }
+
+    #apiJuegos img {
+        width: 100%;
+        height: auto;
+    }
+
+    #mapGoogle {
+        width: 100%;
+        height: 400px;
+        /* Ajusta esta altura según tus necesidades */
+    }
+
+    .equipos {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 4%;
+    }
+
+    .contenedor {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .titulo {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0;
         margin: 0;
-
     }
 
-    .contacto ul li{
-        width: 100%;
+    .formContacto {
+        width: 90%;
         height: auto;
     }
 
-    #tituloCont {
-        width: 100%;
-        
-    }
-
-    .contacto ul{
+    .formContacto form {
         width: 100%;
         height: auto;
+        font-size: larger;
+
     }
 
-    .contacto ul li{
-        width: 100%;
-        height: auto;
-        padding-left: 0;
-        padding-right: 0;
+    .ContactoBTN {
+        width: 90%;
+        height: 50px;
     }
 
+    .nivelAcademico div{
+        margin: 3%;
+    }
 }

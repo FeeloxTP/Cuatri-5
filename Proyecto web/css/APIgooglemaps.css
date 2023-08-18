@@ -1,4 +1,14 @@
-#map {
-  width: 90vw;
-  height: 50vh;
+#mapGoogle {
+  width: 80%;
+  height: 500px;
+  color: aliceblue;
+  margin: 0 auto;
 }
+
+.geo {
+  width: 100%;
+  height: auto;
+  color: aliceblue;
+  margin-bottom: 5%;
+}
+

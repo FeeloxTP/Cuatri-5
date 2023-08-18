@@ -16,17 +16,29 @@ const obtenerJuegosJSON = async () => {
     return datosJuego.results;
 };
 
+// Función asíncrona auto-ejecutable
+
 (async () => {
+
+    // Obtiene un archivo JSON de juegos de forma asíncrona
+
     let juegosJSON = await obtenerJuegosJSON();
+
+    // Aleatoriza los juegos en el archivo JSON
 
     const aleatorizar = juegosJSON.sort(() => Math.random() - 0.5);
 
+    // Guardo los juegos aleotoriamente en la variable y Selecciono el primer juego 
+
     const juegosAleatorios = aleatorizar;
     const juegoParaMostrar = juegosAleatorios[0];
-    
+
+    // Obtiene la fecha de lanzamiento del juego seleccionado
 
     var fecha = new Date(juegoParaMostrar.released);
-   
+
+
+    // Actualiza la imagen, título, año y género en el documento HTML con la información del juego seleccionado
 
     document.getElementById('imagen').src = juegoParaMostrar.background_image;
     document.getElementById('titulo').innerHTML = juegoParaMostrar.name;

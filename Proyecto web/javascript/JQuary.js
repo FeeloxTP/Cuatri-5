@@ -23,6 +23,7 @@ $(document).ready(function () {
         $('#botonOcultar').show();
     });
 
+
     // Agregamos el evento para el botón
     $('#botonOcultar').click(function () {
         $('.item2').hide();
@@ -91,7 +92,7 @@ $(document).ready(function () {
                 }
             })
         }
-        precioTotal.value = precio;
+        precioTotal.value = precio.toFixed(2);
     }
 });
 
